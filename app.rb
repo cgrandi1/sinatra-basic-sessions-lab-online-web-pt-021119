@@ -16,7 +16,7 @@ class App < Sinatra::Base
 
   post '/checkout' do
 
-    partition { |e|  }
+    binding.pry
   end
 
 end
