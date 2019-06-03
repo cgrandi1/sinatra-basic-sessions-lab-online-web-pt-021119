@@ -4,12 +4,12 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  get '/hey' do 
+  get '/hey' do
     @session = session
-  end 
+  end
   
   get '/' do
-    
+
     erb: index
   end
 end
