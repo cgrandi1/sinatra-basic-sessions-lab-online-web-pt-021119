@@ -14,9 +14,9 @@ class App < Sinatra::Base
     erb :index
   end
 
-
   post '/checkout' do
 
+    partition { |e|  }
   end
 
 end
